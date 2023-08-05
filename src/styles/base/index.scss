@@ -1,0 +1,19 @@
+@import '~bootstrap/scss/bootstrap';
+@import 'media-queries';
+@import 'mixins';
+@import 'variables';
+@import '../fonts/fonts';
+
+body {
+	margin: 0;
+	@include defaultFont;
+}
+
+* {
+	outline: none !important;
+	box-sizing: border-box;
+}
+
+.accordion-button {
+	box-shadow: none !important;
+}

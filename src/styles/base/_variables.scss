@@ -1,0 +1,26 @@
+$tablet-max-width: 800px;
+$mobile-max-width: 500px;
+
+$content-max-width: 1200px;
+
+$color1: rgb(255, 228, 181);
+$color1Hover: rgb(232, 207, 164);
+$color2: red;
+$color2Hover: rgb(207, 2, 2);
+$color3: #4682b4;
+$color3Hover: #376890;
+
+$whiteShadowColor: #ffffff70;
+
+$mainGradient: linear-gradient(0deg, #74ebd5 0%, #9face6 100%);
+
+$mainBackground: linear-gradient(0deg, #fbab7e 0%, #f7ce68 100%);
+
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
