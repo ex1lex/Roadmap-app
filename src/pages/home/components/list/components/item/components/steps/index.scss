@@ -1,0 +1,95 @@
+@import '../../../../../../../../styles/base/index.scss';
+
+.steps {
+	list-style: none;
+	margin: 10px 0 0;
+	padding: 0;
+
+	&__step {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		gap: 15px;
+		position: relative;
+		padding: 15px 0;
+
+		&::after {
+			transition: background 0.15s linear;
+			position: absolute;
+			z-index: 1;
+			content: '';
+			width: 2px;
+			height: 100%;
+			top: 35px;
+			left: 19px;
+			background: transparent;
+		}
+
+		&::before {
+			transition: background 0.15s linear;
+			position: absolute;
+			z-index: 1;
+			content: '';
+			width: 2px;
+			height: 35px;
+			left: 19px;
+			top: 0;
+			background: transparent;
+		}
+
+		&:last-of-type {
+			&::after {
+				content: none;
+			}
+		}
+
+		&:first-of-type {
+			&::before {
+				content: none;
+			}
+		}
+
+		&_type {
+			&_success {
+				& .steps__check {
+					border-color: $success;
+					background: $success;
+				}
+
+				&::after {
+					background: $success;
+				}
+
+				& + .steps__step {
+					&::before {
+						background: $success;
+					}
+				}
+			}
+		}
+	}
+
+	&__check {
+		border-radius: 50%;
+		background: white;
+		z-index: 2;
+		cursor: pointer;
+		width: 40px;
+		height: 40px;
+		min-width: 40px;
+		min-height: 40px;
+		border: 1px solid $primary;
+		box-sizing: border-box;
+		transition: background 0.15s linear;
+	}
+
+	&__title {
+		@include defaultFont;
+		font-weight: normal;
+		text-align: left;
+		font-size: 20px;
+		line-height: 20px;
+		margin: 0;
+		width: 100%;
+	}
+}
