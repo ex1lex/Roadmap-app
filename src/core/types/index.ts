@@ -1,3 +1,5 @@
+import { IInitialState } from '../redux/reducer';
+
 export interface INewStep {
 	name: string;
 }
@@ -23,4 +25,8 @@ export interface IStep extends INewStep {
 export interface IItem extends INewItem {
 	id: string;
 	steps: IStep[];
+}
+
+export interface IState {
+	main: IInitialState;
 }
