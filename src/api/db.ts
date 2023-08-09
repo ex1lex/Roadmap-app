@@ -51,7 +51,5 @@ export const updateRoadmap = async (id: string, item: IItem) => {
 };
 
 export const removeRoadmap = async (id: string) => {
-	console.log('test????', id);
-
 	await remove(ref(database, `roadmaps/${id}`));
 };
