@@ -1,6 +1,6 @@
 import { PayloadAction, createSlice } from '@reduxjs/toolkit';
 
-export interface IInitialState {
+interface IInitialState {
 	isLoading: boolean;
 }
 

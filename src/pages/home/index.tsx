@@ -2,7 +2,7 @@ import React, { memo, useEffect, useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import { useDispatch, useSelector } from 'react-redux';
 
-import { IItem, IState } from '../../core/types';
+import { IItem } from '../../core/types';
 import CustomModal from './components/custom-modal';
 import List from './components/list';
 import {
@@ -12,14 +12,15 @@ import {
 	updateRoadmap,
 } from '../../api';
 import { setLoading } from '../../core/redux/reducer';
+import { AppDispatch, RootState } from '../../core/redux';
 import './index.scss';
 
 const Home = () => {
 	const [items, setItems] = useState<IItem[]>([]);
 	const [isShow, setIsShow] = useState<boolean>(false);
 
-	const isLoading = useSelector((state: IState) => state.main.isLoading);
-	const dispatch = useDispatch();
+	const isLoading = useSelector((state: RootState) => state.main.isLoading);
+	const dispatch: AppDispatch = useDispatch();
 
 	const getData = async () => {
 		try {
