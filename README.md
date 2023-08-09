@@ -4,4 +4,4 @@
 
 **Preview**
 
-- [Ссылка на GitHub Pages](https://ex1lex.github.io/Roadmap-app/)
+- [Ссылка на GitHub Pages](https://ex1lex.github.io/roadmap-app/)
