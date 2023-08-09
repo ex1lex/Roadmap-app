@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ex1lex/roadmap-app/static/css/main.43efca27.css",
+    "main.js": "/ex1lex/roadmap-app/static/js/main.509c6a8a.js",
+    "static/media/Roboto-Regular.ttf": "/ex1lex/roadmap-app/static/media/Roboto-Regular.a8d6ac03c7b96b7acb62.ttf",
+    "static/media/Roboto-Bold.ttf": "/ex1lex/roadmap-app/static/media/Roboto-Bold.75371f53f06181df75f1.ttf",
+    "index.html": "/ex1lex/roadmap-app/index.html",
+    "main.43efca27.css.map": "/ex1lex/roadmap-app/static/css/main.43efca27.css.map",
+    "main.509c6a8a.js.map": "/ex1lex/roadmap-app/static/js/main.509c6a8a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43efca27.css",
+    "static/js/main.509c6a8a.js"
+  ]
+}
