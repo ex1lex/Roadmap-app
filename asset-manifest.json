@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/roadmap-app/static/css/main.daa77023.css",
-    "main.js": "/roadmap-app/static/js/main.15e6f41a.js",
+    "main.js": "/roadmap-app/static/js/main.9243796c.js",
     "static/media/Roboto-Regular.ttf": "/roadmap-app/static/media/Roboto-Regular.a8d6ac03c7b96b7acb62.ttf",
     "static/media/Roboto-Bold.ttf": "/roadmap-app/static/media/Roboto-Bold.75371f53f06181df75f1.ttf",
     "index.html": "/roadmap-app/index.html",
     "main.daa77023.css.map": "/roadmap-app/static/css/main.daa77023.css.map",
-    "main.15e6f41a.js.map": "/roadmap-app/static/js/main.15e6f41a.js.map"
+    "main.9243796c.js.map": "/roadmap-app/static/js/main.9243796c.js.map"
   },
   "entrypoints": [
     "static/css/main.daa77023.css",
-    "static/js/main.15e6f41a.js"
+    "static/js/main.9243796c.js"
   ]
 }
