@@ -15,7 +15,7 @@ const root = ReactDOM.createRoot(
 root.render(
 	<React.StrictMode>
 		<ToastContainer />
-		<BrowserRouter>
+		<BrowserRouter basename="roadmap-app">
 			<Provider store={store}>
 				<Routing />
 			</Provider>
