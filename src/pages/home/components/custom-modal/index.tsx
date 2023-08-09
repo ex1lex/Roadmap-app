@@ -51,11 +51,6 @@ const CustomModal = (props: Props) => {
 				id: uuid(),
 				isSuccess: false,
 				name: step.name,
-				steps: data.steps.map((step: INewStep) => ({
-					id: uuid(),
-					isSuccess: false,
-					name: step.name,
-				})),
 			})),
 			createdAt: new Date().toISOString(),
 		};

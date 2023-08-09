@@ -17,7 +17,6 @@ export interface INewItem {
 export interface IStep extends INewStep {
 	id: string;
 	isSuccess: boolean;
-	steps?: IStep[];
 }
 
 export interface IItem extends INewItem {
